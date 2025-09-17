@@ -1,0 +1,114 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f6f8fa;
+  margin: 0;
+  color: #222;
+}
+header {
+  background: #004d6e;
+  color: #fff;
+  padding: 32px 0 16px 0;
+  margin-bottom: 24px;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 16px;
+}
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0;
+}
+.subtitle {
+  font-size: 1.1rem;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+nav {
+  margin-top: 8px;
+}
+nav a {
+  color: #fff;
+  margin-right: 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  background: #fff;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px #0001;
+}
+h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+.job {
+  margin-bottom: 18px;
+}
+.role {
+  font-weight: bold;
+  color: #006699;
+}
+ul {
+  line-height: 1.7;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+label {
+  margin-bottom: 4px;
+}
+input, textarea {
+  padding: 6px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+button {
+  background: #004d6e;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #0078b6;
+}
+footer {
+  background: #004d6e;
+  color: #fff;
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 24px;
+  border-top: 1px solid #eee;
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 8px;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  nav a {
+    margin-right: 8px;
+    font-size: 0.95rem;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
